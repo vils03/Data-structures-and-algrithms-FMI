@@ -1,0 +1,52 @@
+Task 1
+Ivan and Peter are roommates and can never agree on who should take out the trash. Therefore, Peter decided to make a list in which there would be an order and it would be followed. When it's Peter's turn, the letter P is written, and when it's Ivan's - the I letter. Ivan then looked at the list and didn't like it because he wanted the two to alternate, so he decided to start from the beginning and delete a minimum number of letters so that the list would have alternating letters and (We don't aim to keep the number of initial letters). Your task is to find the number of letters deleted by Ivan.
+Example: PPPIIPIPPI
+Expected result: PIPIPI
+
+Input format:
+On the first line there will be a number N - the number of lists to answer for.
+The following lines will have:
+1 number (len) - the length of the list and the list itself, which will contain only the letters I and P.
+
+Sample Input:
+1
+10 PPPIIPIPPI
+
+Sample output:
+4
+
+Task 2
+You're a Bird Fortune Teller who didn't foresee the recent spike in gas prices, and you're in urgent need of cash if you want to survive the coming bitter winter. Since you are blacklisted by all the casinos, you decide to apply your foresight and see the prices of the newest crypto-currency, Chechevcoin and trade it for the next N days. Write a program to help you maximize your potential profit from buying and selling Chechevcoin. For this purpose, you receive a list of currency prices for the next N days.
+
+Input Format:
+On the first line of the standard input you get an integer N - the days for which you know the price of the coin.
+
+Then you get N number of natural numbers - the price of Chechevcoin for each of the days
+
+Output format:
+On a single line, output the maximum possible profit for the given N days.
+
+Sample Input:
+5
+1 2 3 4 5
+
+Sample Output:
+4
+
+
+Task 3
+In school bus No. 94, every student has a ticket with a number T. The ticket is given to each student upon entering the bus. It is permissible for two students to hold tickets that have the same number. The number is a positive whole number, the exception is the tickets of students with special rights, theirs are negative numbers. The ticket seller has a list on which they see the numbers of the tickets sold. It's Ivancho's turn to buy a ticket. Ivancho's ticket is unique because it is always the smallest positive number missing from the seller's list. Your task is to find out what Ivancho's ticket number is.
+
+Input format:
+On the first line of the standard input, you are given a positive number N - the number of tickets on the seller's list. On the second line, a number of integers N are given T - each of which represents a student's ticket number.
+
+Output format:
+On the first and only line of the standard exit, you must display Ivancho's ticket number.
+
+Sample Input:
+12
+9 2 4 1 3 -1 -10 5 -6 -7 1 1
+
+Sample Output:
+6
+
