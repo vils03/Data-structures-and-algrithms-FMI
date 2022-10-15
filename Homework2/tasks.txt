@@ -1,0 +1,77 @@
+Task 1
+Ivancho is a regular customer of Casino Royale. His favourite game is to bet on which number will fall on a roulette wheel. He has recently started betting on the Black or Red game. This is why we analyze his exact number betting history to see what color most of his favourite numbers are. To do this, you need to write a program that sorts the numbers he has bet on based on whether a number is located on a black or red field. Even numbers are placed in red and odd numbers in black. When sorting, all the numbers that were in red are first, and then all the numbers in black. An important condition in the arrangement of the numbers is that if two numbers are of the same color, then the initial order of which number was after which must be preserved.
+
+Input format:
+On the first line of the standard input, you get an integer N - the number of all Ivancho's bets on an exact number. On the following N lines, you get a number that corresponds to one Ivancho bet.
+
+Output format:
+Display in grouped form first the numbers that are located in red and then the numbers that are located in black
+
+Sample input:
+8
+0
+6
+3
+1
+4
+0
+2
+7
+
+Sample output:
+0
+6
+4
+0
+2
+3
+1
+7
+
+
+Task 2 
+The names of FMI students and their scores from the first homework on the Data structures and algorithms course are given. Your task is to sort by points in descending order. In case of a tie, sort the names lexicographically in ascending order.
+
+Input format:
+On the first line of standard input, you get an integer N. On the next N lines you get the names of the students. Another N number of lines follow, where you get the scores of each of the students
+
+Output format:
+List all students and their results in a sorted form
+
+Sample input:
+5
+Ivan
+Ani
+Yavor
+Joro
+Boris
+10
+20
+20
+100
+20
+
+Sample output:
+Joro 100
+Ani 20
+Boris 20
+Yavor 20
+Ivan 10
+
+
+Task 3
+Vanko has been put on lockdown and has to watch Netflix all day. The problem is that there are too many movies and he can't watch them all. He decided to watch only those films that are unique - they do not have a sequel. Once you have the schedule of all the movies, decide which movies should be watched. Since it is important to know when the movie will air, return a list of the timeslots (indexes) of the movies to be watched in ascending order.
+
+Input format:
+On the first line you will get a string S. Each symbol from the input is a separate movie. If a symbol occurs more than once, it means that this movie has a sequel (not unique).
+
+Output format:
+On one line, display all indices that have a movie(symbol) that occurs only once in the input S. Indexes must be in ascending order.
+
+Sample input:
+abcddcax
+
+
+Sample output:
+1 7
+
