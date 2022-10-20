@@ -1,2 +1,2 @@
 # Data-structures-and-algrithms-FMI
-Homeworks for the Data strustures and algoritnms course in Sofia university
+Homeworks, tests and exams for the Data strustures and algoritnms course in Sofia university winter semester 2022/2023.
