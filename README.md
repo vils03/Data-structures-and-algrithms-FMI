@@ -3,5 +3,7 @@ Homeworks, tests and exams for the Data strustures and algoritnms course in Sofi
 
 Links to Homeworks:
 https://www.hackerrank.com/contests/sda-hw-1-2022/challenges
+
 https://www.hackerrank.com/contests/sda-hw-2-2022/challenges
+
 https://www.hackerrank.com/contests/sda-hw-3-2022/challenges
